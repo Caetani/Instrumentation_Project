@@ -3,7 +3,7 @@
 
 ## Objective
 The objective of this project was to design and simulate an electronic measurement system. 
-The system was designed to measure temperature, pressure and molecular weight of natural gas samples.
+The system was designed to measure temperature, pressure and molar fraction of natural gas samples.
 With those three quantities measured, a Multi-Layer Perceptron (MLP) Neural Network was trained to predict the mass density of the gas sample. 
 
 The data was gathered from:
