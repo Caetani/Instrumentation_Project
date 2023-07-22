@@ -1,0 +1,100 @@
+Circuit: * D:\UFRGS\Instrumentação\Trabalho Final\LTSpice Trabalho Final\Sensor de temperatura\Sensor de temperatura FINAL.asc
+
+WARNING: Less than two connections to node +5V.  This node is used by V1.
+WARNING: Less than two connections to node -5V.  This node is used by V2.
+WARNING: Less than two connections to node VOUT.  This node is used by V:U2:OSO.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:19     d:u2:18     d:u2:17     d:u2:2      d:u2:1
+Model:  u2:dnoise   u2:dnoise   u2:dnoise     u2:d        u2:d
+Id:      3.31e-12    1.41e-12    1.41e-12   -1.66e-11   -1.54e-11
+Vd:      1.20e-01    1.00e-01    1.00e-01   -1.66e+01   -1.54e+01
+Req:     7.02e+09    1.68e+10    1.68e+10    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:16     d:u2:15     d:u2:14     d:u2:13     d:u2:12
+Model:    u2:d        u2:d        u2:d        u2:d        u2:d
+Id:     -1.69e-11   -1.55e-11   -1.77e-11   -1.77e-11   -1.66e-11
+Vd:     -1.69e+01   -1.55e+01   -1.77e+01   -1.77e+01   -1.66e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:11     d:u2:10     d:u2:9      d:u2:8      d:u2:7
+Model:    u2:d        u2:d        u2:d        u2:d        u2:d
+Id:     -1.54e-11   -1.82e-11   -1.25e-11   -1.81e-11   -1.26e-11
+Vd:     -1.54e+01   -1.82e+01   -1.25e+01   -1.81e+01   -1.26e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:6      d:u2:5      d:u2:4      d:u2:3      d:u1:19
+Model:    u2:d        u2:d        u2:d        u2:d      u1:dnoise
+Id:     -1.75e-11   -1.21e-11   -1.71e-11   -1.25e-11    3.31e-12
+Vd:     -1.75e+01   -1.21e+01   -1.71e+01   -1.25e+01    1.20e-01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    7.02e+09
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:18     d:u1:17     d:u1:2      d:u1:1      d:u1:16
+Model:  u1:dnoise   u1:dnoise     u1:d        u1:d        u1:d
+Id:      1.41e-12    1.41e-12   -1.93e-11   -1.27e-11   -1.62e-11
+Vd:      1.00e-01    1.00e-01   -1.93e+01   -1.27e+01   -1.62e+01
+Req:     1.68e+10    1.68e+10    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:15     d:u1:14     d:u1:13     d:u1:12     d:u1:11
+Model:    u1:d        u1:d        u1:d        u1:d        u1:d
+Id:     -1.62e-11   -1.77e-11   -1.77e-11   -1.93e-11   -1.27e-11
+Vd:     -1.62e+01   -1.77e+01   -1.77e+01   -1.93e+01   -1.27e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:10     d:u1:9      d:u1:8      d:u1:7      d:u1:6
+Model:    u1:d        u1:d        u1:d        u1:d        u1:d
+Id:     -1.56e-11   -1.51e-11   -1.51e-11   -1.56e-11   -1.60e-11
+Vd:     -1.56e+01   -1.51e+01   -1.51e+01   -1.56e+01   -1.60e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:5      d:u1:4      d:u1:3
+Model:    u1:d        u1:d        u1:d
+Id:     -1.36e-11   -1.29e-11   -1.67e-11
+Vd:     -1.36e+01   -1.29e+01   -1.67e+01
+Req:     1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:u2:2      q:u2:1      q:u1:2      q:u1:1
+Model:    u2:npn      u2:npn      u1:npn      u1:npn
+Ib:       2.00e-06    2.00e-06    2.00e-06    2.00e-06
+Ic:       2.00e-04    2.00e-04    2.00e-04    2.00e-04
+Vbe:      7.88e-01    7.88e-01    7.88e-01    7.88e-01
+Vbc:     -2.00e+01   -1.99e+01   -2.30e+01   -2.25e+01
+Vce:      2.08e+01    2.07e+01    2.38e+01    2.33e+01
+BetaDC:   1.00e+02    1.00e+02    1.00e+02    1.00e+02
+Gm:       8.82e-03    8.82e-03    8.82e-03    8.82e-03
+Rpi:      1.13e+04    1.13e+04    1.13e+04    1.13e+04
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.00e+02    1.00e+02    1.00e+02    1.00e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Fri May 06 17:27:41 2022
+Total elapsed time: 0.369 seconds.
+
+tnom = 27
+temp = 50
+method = trap
+totiter = 9
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 220
+fillins = 79
+

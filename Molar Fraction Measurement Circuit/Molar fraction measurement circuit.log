@@ -1,0 +1,41 @@
+Circuit: * D:\UFRGS\Instrumentação\Trabalho Final\LTSpice Trabalho Final\Sensor capacitivo\Sensor capacitivo RETA FINAL.asc
+
+Direct Newton iteration for .op point succeeded.
+.step cx=1e-014
+.step cx=2e-014
+.step cx=3e-014
+.step cx=4e-014
+.step cx=5e-014
+.step cx=6e-014
+.step cx=7e-014
+.step cx=8e-014
+.step cx=9e-014
+.step cx=1e-013
+.step cx=1.1e-013
+.step cx=1.2e-013
+.step cx=1.3e-013
+.step cx=1.4e-013
+.step cx=1.5e-013
+.step cx=1.6e-013
+.step cx=1.7e-013
+.step cx=1.8e-013
+.step cx=1.9e-013
+.step cx=2e-013
+
+Date: Sat May 07 09:24:34 2022
+Total elapsed time: 46.917 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 13527
+traniter = 13508
+tranpoints = 6272
+accept = 4905
+rejected = 1367
+matrix size = 136
+fillins = 123
+Thread vector: 42.7/27.9[4] 16.8/10.5[4] 9.2/5.9[4] 2.4/4.7[1]  2592/500
+Matrix Compiler1: 12.46 KB object code size  9.1/5.2/[2.4]
+Matrix Compiler2: 14.70 KB object code size  5.0/6.6/[1.7]
+
