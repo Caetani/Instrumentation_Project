@@ -9,3 +9,9 @@ With those three quantities measured, a Multi-Layer Perceptron (MLP) Neural Netw
 For complete information about the project and it's development, the file "Project Report.pdf" can be read.
 If there are still any doubts, please contact me.
 My e-mail is: bcaetani.poa@gmail.com
+
+## Files explanation
+1. molecular_weight_data.xlsx file is the dataset used in NN training.
+2. neuralNetwork.py was used to optimize the network hyperparameters and perform, training, validation and testing.
+3. supportFunction.py was used to analyse and design pt100 temperature measurement circuit desired voltage output and to perform linear regression of the voltage as a function of the measured temperature, using data contained in "vout vs temp.xlsx" file.
+ 
