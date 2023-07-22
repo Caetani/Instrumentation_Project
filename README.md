@@ -6,6 +6,11 @@ The objective of this project was to design and simulate an electronic measureme
 The system was designed to measure temperature, pressure and molecular weight of natural gas samples.
 With those three quantities measured, a Multi-Layer Perceptron (MLP) Neural Network was trained to predict the mass density of the gas sample. 
 
+The data was gathered from:
+Wood, D. A. Choubineh, A. Transparent machine learning provides insightful estimates of natural
+gas density based on pressure, temperature and compositional variables. 2020. Avaiable in:
+https://www.sciencedirect.com/science/article/pii/S2468256X20300031.
+
 For complete information about the project, it's development, analysis and evaluation, the file "Project Report.pdf" can be read.
 If there are still any doubts, please contact me.
 My e-mail is: bcaetani.poa@gmail.com
